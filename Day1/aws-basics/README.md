@@ -43,11 +43,19 @@ AWS CloudTrail: Records AWS API calls for auditing, compliance, and troubleshoot
 AWS Step Functions: Coordinates the components of distributed applications using visual workflows.
 AWS SAM (Serverless Application Model): An open-source framework for building serverless applications.
 
+My take-away from this is that AWS can provide a vast array of services and you should consider which you will need.
+
 # AWS regions and availability zones
+
 - AWS Regions are separate geographic areas.
+
 - AWS Regions consist of multiple, physically separated and isolated Availability Zones that are connected with low latency, high throughput and highly redundant networking.
+
 - These Availability Zones enable you to operate production applications and databases that are more highly available, fault tolerant, and scalable than possible when using a single data center. You can deploy your applications and databases across multiple Availability Zones. In the unlikely event of a failure of one Availability Zone, user requests are routed to your application instances in the second Availability Zone. This approach ensures that your application continues to remain available at all times.
+
 ![Alt text](../../readme-images/AWS-regions-and-zones.png)
+
+My take-away from this is that AWS regions and availability zones are a great idea as it allows users to deploy applications and know that even if there is an issue with 1 data centre it will not cause an issue for your application.
 
 # How AWS points of presence work
 When a user requests data or an object in your application, the request goes from the client to the AWS servers and back to the user.
@@ -67,3 +75,5 @@ In the scenario above, our website "example.com" uses a CloudFront Distribution 
 6) The server returns the data to the edge location.
 
 7) CloudFront forwards the data to the user and adds it to the cache. For subsequent requests, the data is returned from the cache.
+
+My take-away from this is that AWS points of presence is very useful as it means that a request for data may not need to go all the way to the server if the data is cached at the PoP, meaning you will get the data faster.
