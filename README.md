@@ -7,8 +7,8 @@
 
 
 ## Day 1 - Intro to cloud and AWS
-- [What is cloud](what-is-cloud/README.md)<br>
-Here are some notes
+[What is cloud](Day1/what-is-cloud/README.md)<br>
+[Aws basics](Day1/aws-basics/README.md)
 
 ## Day 2
 

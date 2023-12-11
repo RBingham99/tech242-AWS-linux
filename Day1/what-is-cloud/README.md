@@ -39,7 +39,7 @@ In 2006, Amazon launched Amazon Web Services, which offers online services to ot
 # What are the different types of cloud services?
 - Infrastructure-as-a-Service (IaaS) - Infrastructure as a service is a cloud computing service model by means of which computing resources are supplied by a cloud services provider.
   
-- Platforms-as-a-Service (PaaS) - Platform as a service (PaaS) or application platform as a service (aPaaS) or platform-based service is a category of cloud computing services that allows     customers to provision, instantiate, run, and manage a modular bundle comprising a computing platform and one or more applications.
+- Platforms-as-a-Service (PaaS) - Platform as a service (PaaS) or application platform as a service (PaaS) or platform-based service is a category of cloud computing services that allows     customers to provision, instantiate, run, and manage a modular bundle comprising a computing platform and one or more applications.
 
 - Software-as-a-Service (SaaS) - Software as a service is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted.
 
