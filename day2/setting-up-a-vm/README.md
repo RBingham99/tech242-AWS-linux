@@ -7,7 +7,7 @@ The first thin you need to do to set up a virtual machine through AWS is to logi
 Next you want to ensure your region in the top left corner is correct, for us we want Ireland.
 
 # Step 3
-Once you have set your region you want to navigate to the search bar at the top and enter "EC2" and select the option that says "Virtual Servers in the Cloud".
+Once you have set your region you want to navigate to the search bar at the top and enter "EC2" and select the option that says "Virtual Servers in the Cloud".<br>
 ![EC2-in-dropdown](../../readme-images/EC2-in-dropdown.png)
 
 # Step 4
