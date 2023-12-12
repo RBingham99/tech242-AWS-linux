@@ -11,8 +11,9 @@
 [Aws basics](day1/aws-basics/README.md)
 
 ## Day 2
-[Setting up a virtual machine](day2/setting-up-a-vm/README.md)
-
+[Setting up a virtual machine](day2/setting-up-a-vm/README.md)<br>
+[Accessing a virtual machine](day2/accessing-a-vm/README.md)<br>
+[linux](day2/linux/README.md)
 ## How to change directory in Linux
 
 Change directory using this command: `cd <directory>`
