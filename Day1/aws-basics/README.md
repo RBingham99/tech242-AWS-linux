@@ -5,42 +5,42 @@ Amazon Web Services (AWS) is a comprehensive and widely used cloud computing pla
 
 # What does AWS provide?
 - Compute Services:
-Amazon EC2 (Elastic Compute Cloud): Provides scalable compute capacity in the cloud, allowing users to run virtual servers for various applications.
+Amazon EC2 (Elastic Compute Cloud): Provides scalable compute capacity in the cloud, allowing users to run virtual servers for various applications.<br>
 Amazon Lambda: A serverless compute service that automatically scales and executes code in response to events without the need to provision or manage servers.
 
 - Storage Services:
-Amazon S3 (Simple Storage Service): Offers scalable object storage for data storage and retrieval. It is widely used for hosting static websites, backup, and data archiving.
+Amazon S3 (Simple Storage Service): Offers scalable object storage for data storage and retrieval. It is widely used for hosting static websites, backup, and data archiving.<br>
 Amazon EBS (Elastic Block Store): Provides persistent block-level storage volumes for use with Amazon EC2 instances.
 
 - Database Services:
-Amazon RDS (Relational Database Service): Manages relational databases such as MySQL, PostgreSQL, and Oracle. It automates routine database tasks.
+Amazon RDS (Relational Database Service): Manages relational databases such as MySQL, PostgreSQL, and Oracle. It automates routine database tasks.<br>
 Amazon DynamoDB: A NoSQL database service that delivers fast and predictable performance with seamless scalability.
 
 - Networking:
-Amazon VPC (Virtual Private Cloud): Allows users to provision a logically isolated section of the AWS Cloud where they can launch AWS resources in a virtual network.
+Amazon VPC (Virtual Private Cloud): Allows users to provision a logically isolated section of the AWS Cloud where they can launch AWS resources in a virtual network.<br>
 
 - Security and Identity:
-AWS IAM (Identity and Access Management): Enables users to securely control access to AWS services and resources.
+AWS IAM (Identity and Access Management): Enables users to securely control access to AWS services and resources.<br>
 AWS Key Management Service (KMS): Helps manage encryption keys and control access to encrypted data.
 
 - Machine Learning and AI:
-Amazon SageMaker: A fully managed service for building, training, and deploying machine learning models.
+Amazon SageMaker: A fully managed service for building, training, and deploying machine learning models.<br>
 Amazon Polly: Converts text into lifelike speech using deep learning.
 
 - Analytics and Big Data:
-Amazon Redshift: A fully managed data warehouse that enables users to analyze large datasets with high performance and scalability.
+Amazon Redshift: A fully managed data warehouse that enables users to analyze large datasets with high performance and scalability.<br>
 Amazon EMR (Elastic MapReduce): A cloud-based big data platform for processing and analyzing vast amounts of data using popular frameworks like Apache Spark and Hadoop.
 
 - Developer Tools:
-AWS CodeDeploy: Automates code deployments to any instance, including Amazon EC2 instances and on-premises servers.
+AWS CodeDeploy: Automates code deployments to any instance, including Amazon EC2 instances and on-premises servers.<br>
 AWS CodePipeline: A continuous integration and continuous delivery (CI/CD) service for fast and reliable application updates.
 
 - Management and Monitoring:
-AWS CloudWatch: Monitors AWS resources and applications in real-time, and can automatically respond to defined events.
+AWS CloudWatch: Monitors AWS resources and applications in real-time, and can automatically respond to defined events.<br>
 AWS CloudTrail: Records AWS API calls for auditing, compliance, and troubleshooting.
 
 - Serverless Computing:
-AWS Step Functions: Coordinates the components of distributed applications using visual workflows.
+AWS Step Functions: Coordinates the components of distributed applications using visual workflows.<br>
 AWS SAM (Serverless Application Model): An open-source framework for building serverless applications.
 
 My take-away from this is that AWS can provide a vast array of services and you should consider which you will need.

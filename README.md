@@ -7,13 +7,11 @@
 
 
 ## Day 1 - Intro to cloud and AWS
-[What is cloud](Day1/what-is-cloud/README.md)<br>
-[Aws basics](Day1/aws-basics/README.md)
+[What is cloud](day1/what-is-cloud/README.md)<br>
+[Aws basics](day1/aws-basics/README.md)
 
 ## Day 2
-
-Some more notes
-![screenshot-of-readme-setup](readme-images/screenshot-of-readme-setup.png)
+[Setting up a virtual machine](day2/setting-up-a-vm/README.md)
 
 ## How to change directory in Linux
 

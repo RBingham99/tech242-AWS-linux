@@ -37,7 +37,7 @@ My take-away from this is that cloud computing can be utilised in many different
 # What are the 4 main types of cloud computing?
 - private clouds
 - public clouds
-- hybrid clouds (a mixed computing environment where applications are run using a combination of computing, storage, and services in different environments)
+- hybrid clouds (mix of public and private like database on site and app running in the cloud)
 - multiclouds (multicloud refers to a company utilizing multiple cloud computing services from various public vendors within a single, heterogeneous architecture)
 
 My main take-away from this is that users can mix and match cloud services from different providers to customize for their needs.
@@ -70,7 +70,7 @@ Disadvantages:
 My take-away from this is that cloud computing can be very benificial but isn't the fix all answer to everything as it does have downsides.
 
 # Opex vs Capex
-Opex - operating expenses - day-to-day expenses that a company incurs to keep its business running
+Opex - operating expenses - day-to-day expenses that a company incurs to keep its business running<br>
 Capex - Capital expenditures - major purchases that a company makes
 
 My take-away from this is that you should always consider what will be cheaper in the long run, the initial capex or the ongoing opex.
