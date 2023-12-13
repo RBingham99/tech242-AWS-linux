@@ -1,8 +1,10 @@
 ## Linux
 
+# Important points
 - / is root directory path from root directory, so starting with / is called an absolute path
 - ~ is home directory
 
+# Linux commands
 - `uname` checks OS 
 - `--help` can be run after most commands to se possible flags
 - `whoami` shows current user
@@ -15,7 +17,7 @@
 - `cp` copy
 - `rm` remove file
 - `mkdir` make directory  
-- `rmdir` remove directory or `rm -r` (-r recursively removes everything in folder)
+- `rmdir` remove directory or `rm -r` (-r removes directory and recursively removes everything inside)
 - `touch` make empty file
 - `cat` print file contents
 - `nano` edit file
