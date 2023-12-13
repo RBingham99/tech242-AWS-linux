@@ -45,3 +45,6 @@ Finally you can check everything is correct in the summary on the right, and if 
 
 # Finally 
 Congratulations! Your VM is now set up, you can navigate back to the "Instances" page that we saw earlier and find your instance (VM). If you click on the "Instance ID" of your VM you will be taken to a screen that will show you much more information about it and if you click on "Instance State" in the top right corner you can start or stop your instance.
+
+Here is a diagram that might make the process a little more understandable. <br>
+![EC2-diagram](../../readme-images/EC2-diagram.jpg)
