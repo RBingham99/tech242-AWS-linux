@@ -3,6 +3,7 @@
 - [tech242-AWS-linux](#tech242-aws-linux)
   - [Day 1 - Intro to cloud and AWS](#day-1---intro-to-cloud-and-aws)
   - [Day 2](#day-2)
+  - [Day 3](#day-3)
   - [How to change directory in Linux](#how-to-change-directory-in-linux)
 
 
@@ -14,6 +15,12 @@
 [Setting up a virtual machine](day2/setting-up-a-vm/README.md)<br>
 [Accessing a virtual machine](day2/accessing-a-vm/README.md)<br>
 [linux](day2/linux/README.md)
+
+## Day 3
+[Scripts](day3/scripts/README.md)
+[Enviroment variables](day3/enviroment-variables/README.md)
+[Manageing processes](day3/managing-processes/README.md)
+
 ## How to change directory in Linux
 
 Change directory using this command: `cd <directory>`
