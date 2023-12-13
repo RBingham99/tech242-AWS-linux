@@ -19,7 +19,8 @@
 ## Day 3
 [Scripts](day3/scripts/README.md)<br>
 [Enviroment variables](day3/enviroment-variables/README.md)<br>
-[Manageing processes](day3/managing-processes/README.md)
+[Manageing processes](day3/managing-processes/README.md)<br>
+[Managing file ownership and permissions](day3/managing-file-ownership-and-permissions/README.md)
 
 ## How to change directory in Linux
 
