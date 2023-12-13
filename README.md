@@ -17,8 +17,8 @@
 [linux](day2/linux/README.md)
 
 ## Day 3
-[Scripts](day3/scripts/README.md)
-[Enviroment variables](day3/enviroment-variables/README.md)
+[Scripts](day3/scripts/README.md)<br>
+[Enviroment variables](day3/enviroment-variables/README.md)<br>
 [Manageing processes](day3/managing-processes/README.md)
 
 ## How to change directory in Linux
