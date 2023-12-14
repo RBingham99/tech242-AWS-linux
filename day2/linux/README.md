@@ -34,3 +34,5 @@
 - `clear` will clear the terminal
 - `sleep` will put your terminal to sleep for a given amount of time, or if you put `&` at the end it will run in the background
 - `kill` kill followed by a PID will kill a process but make sure you only kill processes that you know exactly what they are doing, to avoid breaking anything. You can also put `-9` after kill to make it a brutal kill, which is the strongest kill but that makes it the most dangerous. Killing a parent process can create a zombie process.
+- `mvn spring-boot:run` will tell maven to run an application.
+- `mvn spring-boot:start`/`mvn spring-boot:stop` will run your app without stopping terminal interaction and then stop it again.
