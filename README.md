@@ -4,6 +4,7 @@
   - [Day 1 - Intro to cloud and AWS](#day-1---intro-to-cloud-and-aws)
   - [Day 2](#day-2)
   - [Day 3](#day-3)
+- [Day 4](#day-4)
   - [How to change directory in Linux](#how-to-change-directory-in-linux)
 
 
@@ -21,6 +22,9 @@
 [Enviroment variables](day3/enviroment-variables/README.md)<br>
 [Manageing processes](day3/managing-processes/README.md)<br>
 [Managing file ownership and permissions](day3/managing-file-ownership-and-permissions/README.md)
+
+# Day 4
+[Transfering files between your local machine and your VM](day4/transfering-files-between-local-machine-and-vm/README.md)
 
 ## How to change directory in Linux
 
