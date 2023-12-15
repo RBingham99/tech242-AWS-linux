@@ -22,16 +22,16 @@
 [Scripts](day3/scripts/README.md)<br>
 [Enviroment variables](day3/enviroment-variables/README.md)<br>
 [Manageing processes](day3/managing-processes/README.md)<br>
-[Managing file ownership and permissions](day3/managing-file-ownership-and-permissions/README.md)
+[Managing file ownership and permissions](day3/managing-file-ownership-and-permissions/README.md)<br>
 [Script we used to deploy jsonvoorhees app](day4/script-for-deploying-our-app/README.md)
 
 ## Day 4
-[Transfering files between your local machine and your VM](day4/transfering-files-between-local-machine-and-vm/README.md)
+[Transfering files between your local machine and your VM](day4/transfering-files-between-local-machine-and-vm/README.md)<br>
 [Script for deploying our app](day4/script-for-deploying-our-app/README.md)
 
 ## Day 5
-[Creating AMI's](<day 5/creating-ami's/README.md>)
-[Adding apache web server and configuring reverse proxy](<day 5/adding-apache-web-server-and-configuring-reverse-proxy/README.md>)
+[Creating AMI's](<day 5/creating-ami's/README.md>)<br>
+[Adding apache web server and configuring reverse proxy](<day 5/adding-apache-web-server-and-configuring-reverse-proxy/README.md>)<br>
 [Script to deploy app with apache](<day 5/script-to-deploy-app-with-apache/README.md>)
 
 ## How to change directory in Linux
