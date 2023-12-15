@@ -36,7 +36,7 @@ echo ""
 
 # Install apache
 echo "Install apache..."
-sudo DEBIAN_FRONTEND==noninteractive apt install apache2
+sudo DEBIAN_FRONTEND==noninteractive apt install apache2 -y
 echo "Done!"
 echo ""
 
@@ -68,10 +68,10 @@ echo ""
 # Open and edit config file
 echo "Editing apache config..."
 VHOST_CONF="/etc/apache2/sites-available/000-default.conf"
-DOMAIN_OR_IP="your_domain_or_ip"
+DOMAIN_OR_IP="34.244.227.143"
 cat <<EOF | sudo tee "$VHOST_CONF" > /dev/null
 <VirtualHost *:80>
-    ServerName $D
+    ServerName $
 
     ProxyPass / http://localhost:5000/
     ProxyPassReverse / http://localhost:5000/
