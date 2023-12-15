@@ -5,6 +5,7 @@
   - [Day 2](#day-2)
   - [Day 3](#day-3)
   - [Day 4](#day-4)
+  - [Day 5](#day-5)
   - [How to change directory in Linux](#how-to-change-directory-in-linux)
 
 
@@ -26,6 +27,10 @@
 
 ## Day 4
 [Transfering files between your local machine and your VM](day4/transfering-files-between-local-machine-and-vm/README.md)
+[Script for deploying our app](day4/script-for-deploying-our-app/README.md)
+
+## Day 5
+
 
 ## How to change directory in Linux
 

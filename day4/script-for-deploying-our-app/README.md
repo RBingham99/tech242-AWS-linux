@@ -31,11 +31,11 @@ echo "Done!"
 echo ""
 # copy the app code to this vm
 echo "Clone app from github..."
-git clone https://github.com/RBingham99/tech242-jsonvoorhees-app.git
+sudo git clone https://github.com/RBingham99/tech242-jsonvoorhees-app.git repo
 echo "Done!"
 echo ""
 # cd into the right folder
-cd ~/tech242-jsonvoorhees-app/springapi
+cd /repo/springapi
 # Run the app
 echo "Stopping application if running..."
 mvn spring-boot:stop
