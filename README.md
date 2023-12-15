@@ -30,7 +30,9 @@
 [Script for deploying our app](day4/script-for-deploying-our-app/README.md)
 
 ## Day 5
-
+[Creating AMI's](<day 5/creating-ami's/README.md>)
+[Adding apache web server and configuring reverse proxy](<day 5/adding-apache-web-server-and-configuring-reverse-proxy/README.md>)
+[Script to deploy app with apache](<day 5/script-to-deploy-app-with-apache/README.md>)
 
 ## How to change directory in Linux
 
