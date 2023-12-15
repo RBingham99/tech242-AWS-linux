@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 # update & upgrade
@@ -45,3 +46,4 @@ echo "Run application..."
 mvn spring-boot:start
 echo "Done!"
 echo ""
+```
