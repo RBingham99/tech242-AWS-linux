@@ -73,22 +73,12 @@ sudo a2enmod proxy_http
 echo "Done!"
 echo ""
 
-# Open and edit config file
-echo "Editing apache config..."
-VHOST_CONF="/etc/apache2/sites-available/000-default.conf"
-cat <<EOF | sudo tee "$VHOST_CONF" > /dev/null
-<VirtualHost *:80>
-    ServerAdmin webmaster@localhost
-    DocumentRoot /var/www/html
-
-    ProxyPreserveHost On
-    ProxyPass / http://localhost:5000/
-    ProxyPassReverse / http://localhost:5000/
-
-    ErrorLog \${APACHE_LOG_DIR}/error.log
-    CustomLog \${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
-EOF
+# Conditionl to open and edit config file if not already edited
+if grep -q 'ProxyPass / http://localhost:5000/' /etc/apache2/sites-available/000-default.conf; then
+    echo "Reverse proxy already configured."
+else
+	sudo sed -i '/DocumentRoot \/var\/www\/html/ a\ProxyPreserveHost On\nProxyPass \/ http:\/\/localhost:5000\/\nProxyPassReverse \/ http:\/\/localhost:5000\/\n' /etc/apache2/sites-available/000-default.conf
+fi
 echo "Done!"
 echo ""
 
