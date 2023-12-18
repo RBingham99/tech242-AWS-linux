@@ -78,7 +78,10 @@ echo "Editing apache config..."
 VHOST_CONF="/etc/apache2/sites-available/000-default.conf"
 cat <<EOF | sudo tee "$VHOST_CONF" > /dev/null
 <VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html
 
+    ProxyPreserveHost On
     ProxyPass / http://localhost:5000/
     ProxyPassReverse / http://localhost:5000/
 
