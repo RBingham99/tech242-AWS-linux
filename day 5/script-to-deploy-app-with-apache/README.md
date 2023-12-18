@@ -76,10 +76,8 @@ echo ""
 # Open and edit config file
 echo "Editing apache config..."
 VHOST_CONF="/etc/apache2/sites-available/000-default.conf"
-DOMAIN_OR_IP="your_domain_or_ip"
 cat <<EOF | sudo tee "$VHOST_CONF" > /dev/null
 <VirtualHost *:80>
-    ServerName $DOMAIN_OR_IP
 
     ProxyPass / http://localhost:5000/
     ProxyPassReverse / http://localhost:5000/
