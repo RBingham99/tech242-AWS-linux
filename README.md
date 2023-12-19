@@ -9,6 +9,7 @@
   - [Day 5 - Creating AMI's and Apache](#day-5---creating-amis-and-apache)
 - [Week 2](#week-2)
   - [Day 1 - Conditionals in scripts](#day-1---conditionals-in-scripts)
+  - [Day 2](#day-2)
 
 # Week 1
 ## Day 1 - Intro to cloud and AWS
@@ -40,3 +41,6 @@
 ## Day 1 - Conditionals in scripts
 [Conditionals in scripts](week2/day1/conditionals-in-scripts/README.md)<br>
 [Script to deply app adding to apache config instead of replacing it](week2/day1/script-to-deply-app-adding-to-apache-config-instead-of-replacing-it/README.md)
+
+## Day 2
+[Steps for deployment](week2/day2/steps-for-deployment/README.md)

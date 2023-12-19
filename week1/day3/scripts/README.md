@@ -24,4 +24,4 @@
 - To run a script do `./` followed by the path to your script file so if you are in the same file just put the filename after the `./`.
 - You should always try to make your scripts idempotent, which means they can run on any machine whether it is a clean, brand new machine or not, and still do the same thing.
 - You can put `-y` after a command to stop it asking for user interaction.
-- If a command you run with `-y` still requires some user interaction you can use `DEBIAN_FRONTEND==noninteractive` immedietly after `sudo` in your command to make sure it doesn't require user interaction, however this only works for debian OS's, like ubuntu.
+- If a command you run with `-y` still requires some user interaction you can use `DEBIAN_FRONTEND=noninteractive` immedietly after `sudo` in your command to make sure it doesn't require user interaction, however this only works for debian OS's, like ubuntu.
