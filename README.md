@@ -24,7 +24,7 @@
 ## Day 3 - Scripts and Linux continued
 [Scripts](week1/day3/scripts/README.md)<br>
 [Enviroment variables](week1/day3/enviroment-variables/README.md)<br>
-[Manageing processes](week1/day3/managing-processes/README.md)<br>
+[Managing processes](week1/day3/managing-processes/README.md)<br>
 [Managing file ownership and permissions](week1/day3/managing-file-ownership-and-permissions/README.md)<br>
 
 ## Day 4 - Transfering files between local and remote machines and intro to deployment
