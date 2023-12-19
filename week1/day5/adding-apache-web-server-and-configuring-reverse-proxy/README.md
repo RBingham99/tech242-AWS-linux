@@ -26,7 +26,8 @@ But change `yourdomain.com` to your public IP and both `5000`'s to whatever port
 Your Reverse proxy is now set up, you can check by going to your IP and seeing if you are redirected.
 
 # My script for deploying an app with apache set up is here:
-[y script for deploying an app with apache](../script-to-deploy-app-with-apache/README.md)
+[My script for deploying an app with apache and configured reverse proxy](../script-to-deploy-app-with-apache/README.md)
+[My script for deploying an app with apache and configured reverse proxy using conditionals](../../../week2/day1/script-to-deply-app-adding-to-apache-config-instead-of-replacing-it/README.md)
 
 # Note
 When I automated this proccess I ran into an issue because I was re-writing the config file not just adding to it, this method does work but you have to make sure you dont remove anything important, so whent your type what you want to put in the file you need to include the important things that are already there.
