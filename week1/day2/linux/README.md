@@ -36,4 +36,4 @@
 - `kill` kill followed by a PID will kill a process but make sure you only kill processes that you know exactly what they are doing, to avoid breaking anything. You can also put `-9` after kill to make it a brutal kill, which is the strongest kill but that makes it the most dangerous. Killing a parent process can create a zombie process.
 - `mvn spring-boot:run` will tell maven to run an application.
 - `mvn spring-boot:start`/`mvn spring-boot:stop` will run your app without stopping terminal interaction and then stop it again.
-- `sed` allows you to edit files in a script.
+- `sed` allows you to edit files in a script. It is used like this: `sed -i '/pattern/ a\line 1 of code\nline 2 of code\n' /path/to/file`. The `-i` at the begining stands for 'inplace'. Where it says pattern you put the line you want to look for in the file (inside the slashes), Always make the line you aer looking for unique. The `a` before the first line to insert stands for add/apend so it will be added after the pattern line. If you have any forward slashes `/` in your strings you need to put backslashes `\` before them.
