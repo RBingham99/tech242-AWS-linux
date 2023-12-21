@@ -76,7 +76,7 @@ Capex - Capital expenditures - major purchases that a company makes
 My take-away from this is that you should always consider what will be cheaper in the long run, the initial capex or the ongoing opex.
 
 # Marketshare
-![cloudComputingMarketShare](../../readme-images/cloudComputingMarketShare.jpeg)
+![cloudComputingMarketShare](../../../readme-images/cloudComputingMarketShare.jpeg)
 
 My take-away from this is that AWS is by far the most popular cloud provider.
 

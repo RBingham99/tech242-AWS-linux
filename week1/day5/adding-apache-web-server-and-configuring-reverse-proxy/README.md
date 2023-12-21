@@ -20,7 +20,7 @@ ServerName yourdomain.com
     ProxyPassReverse / http://localhost:5000/
 ```
 But change `yourdomain.com` to your public IP and both `5000`'s to whatever port you want<br>
-![apache-config-file](../../readme-images/apache-config-file.png)<br>
+![apache-config-file](../../../readme-images/apache-config-file.png)<br>
 4) Restart apache with: `sudo systemctl restart apache2`
 
 Your Reverse proxy is now set up, you can check by going to your IP and seeing if you are redirected.
