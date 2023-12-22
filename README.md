@@ -10,6 +10,7 @@
 - [Week 2](#week-2)
   - [Day 1 - Conditionals in scripts](#day-1---conditionals-in-scripts)
   - [Day 2](#day-2)
+  - [Day 5](#day-5)
 
 # Week 1
 ## Day 1 - Intro to cloud and AWS
@@ -44,3 +45,7 @@
 
 ## Day 2
 [Steps for deployment](week2/day2/steps-for-deployment/README.md)
+
+## Day 5
+[AWS-VPC's](week2/day5/aws-vpc's/README.md)<br>
+[Setting up custom VPC's](week2/day5/setting-up-custom-vpc's/README.md)
