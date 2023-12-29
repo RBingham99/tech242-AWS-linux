@@ -8,15 +8,15 @@ Next you want to ensure your region in the top left corner is correct, for us we
 
 # Step 3
 Once you have set your region you want to navigate to the search bar at the top and enter "EC2" and select the option that says "Virtual Servers in the Cloud".<br>
-![EC2-in-dropdown](../../readme-images/EC2-in-dropdown.png)
+![EC2-in-dropdown](../../../readme-images/EC2-in-dropdown.png)
 
 # Step 4
 You should then click on "Instances (running)" under resources.<br>
-![instances-option-on-ec2-page](../../readme-images/instances-option-on-ec2-page.png)
+![instances-option-on-ec2-page](../../../readme-images/instances-option-on-ec2-page.png)
 
 # Step 5
 Now click "Launch instances" in the top left corner (may say create if using Azure).<br>
-![launch-instances-button](../../readme-images/launch-instances-button.png)
+![launch-instances-button](../../../readme-images/launch-instances-button.png)
 
 # Step 6 
 Give your VM a name, we used tech242-ourNames-whatItDoes
