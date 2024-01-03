@@ -56,3 +56,4 @@
 ## Day 2
 [S3 storage](week3/day2/s3-storage/README.md)
 [Script to change pic on front page to a scary cat](week3/day2/script-to-change-pic-on-front-page-to-a-scary-cat/README.md)
+[Script to revert scary cat pic](week3/day2/script-to-revert-scary-cat-change/README.md)
