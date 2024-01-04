@@ -35,3 +35,18 @@ BE VERY VERY CAREFUL WITH THESE COMMANDS, ESPECIALLY THE LAST ONE
 5) scroll down to the access control list section and follow the link
 6) tick that you acknowledge and click save
 7) go to the object tab, tick the objects you want to make public, click actions, make public and confirm
+
+## How does S3 storage provide redundancy, high availability and help with disaster recovery?
+Amazon S3 (Simple Storage Service) provides redundancy, durability and help with disaster recovery through a combination of data replication, error checking, and automatic healing mechanisms. The primary features that contribute to the redundancy and durability of data in Amazon S3 are:
+
+1) Data Replication:
+Amazon S3 automatically replicates your data across multiple geographically distributed Availability Zones (AZs). An Availability Zone is a physically separate data center with independent power, cooling, and networking infrastructure. This replication across AZs helps protect your data from hardware failures, power outages, and other localized events.
+
+2) Multiple Copies of Objects:
+Each object stored in Amazon S3 is redundantly stored on multiple devices within an AZ. Amazon S3 maintains multiple copies of each object across different devices to ensure data durability and availability.
+
+3) Checksums and Error Detection:
+Amazon S3 uses checksums to detect and correct errors in data during both storage and retrieval. Checksums are mathematical values computed from the content of the data, and they are used to verify data integrity. If an error is detected in one copy of the data, Amazon S3 automatically retrieves a copy from another location.
+
+4) Versioning:
+Amazon S3 supports versioning, which allows you to keep multiple versions of an object in the same bucket. This feature helps protect against accidental deletions or overwrites by maintaining a history of changes to objects.
