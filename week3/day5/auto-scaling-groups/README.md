@@ -38,3 +38,10 @@
    17) Check all the settings and click create
 6)  Now test your auto scaling group by:
     1) going to your loadbalancer and copying the DNS name and pasting it into your search bar (it may take a minute to load)
+
+# Deleting auto scaling groups
+To delete auto scaling groups:
+1) delete the load balancer
+2) delete the target group
+3) delete the auto scaling group
+4) (optional) delete the launch template
