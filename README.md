@@ -13,6 +13,7 @@
   - [Day 5](#day-5)
 - [Week 3](#week-3)
   - [Day 2](#day-2-1)
+  - [Day 5](#day-5-1)
 
 # Week 1
 ## Day 1 - Intro to cloud and AWS
@@ -57,3 +58,7 @@
 [S3 storage](week3/day2/s3-storage/README.md)<br>
 [Script to change pic on front page to a scary cat](week3/day2/script-to-change-pic-on-front-page-to-a-scary-cat/README.md)<br>
 [Script to revert scary cat pic](week3/day2/script-to-revert-scary-cat-change/README.md)
+
+## Day 5
+[Monitoring and alert management](week3/day5/monitoring-and-alert-management/README.md)<br>
+[Auto scaling groups](week3/day5/auto-scaling-groups/README.md)
