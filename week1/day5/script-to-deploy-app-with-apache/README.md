@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 # Update
@@ -113,3 +114,4 @@ echo "Run application..."
 sudo mvn spring-boot:start
 echo "Done!"
 echo ""
+```
