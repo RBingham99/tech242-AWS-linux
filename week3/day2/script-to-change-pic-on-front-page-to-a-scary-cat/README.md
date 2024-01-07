@@ -47,7 +47,7 @@ echo ""
 
 ```
 
-## Manual commands to create the bucket first - not working yet
+## Manual commands to create the bucket first
 ```
 #!/bin/bash
 
