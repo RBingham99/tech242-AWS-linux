@@ -2,6 +2,7 @@
 
 # Monitoring
 Monitoring is a way to keep track of the resources your VM is using. AWS gives you some monitoring by default, but it only gives you data every 5 minutes, if you want more constant data you will need to play extra for detailed monitoring and you will be able to get data every minute.
+![Levels of monitoring and scaling](../../../readme-images/levels-of-monitoring_scaling.jpg)
 
 # Setting up detailed monitoring:
 1) First go tou your instance details on the AWS dashboard.
