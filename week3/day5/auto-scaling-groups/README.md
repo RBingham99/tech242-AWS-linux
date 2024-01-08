@@ -32,7 +32,7 @@
    7) Give your new load balancer a name
    8) Select a load balancer scheme (we used internet facing)
    ![ASG setup step 3a](../../../readme-images/asg-setup-step-3a.png)
-   9)  Select create new target group from the default routing dropdown
+   9)  Select "create a target group" from the default routing dropdown
    10) Name your new target group
    ![ASG setup step 3b](../../../readme-images/asg-setup-step-3b.png)
    11) Click the checkbox for turn on Elastic Load Balancing health checks and click next
