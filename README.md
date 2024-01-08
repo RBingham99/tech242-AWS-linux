@@ -14,6 +14,8 @@
 - [Week 3](#week-3)
   - [Day 2](#day-2-1)
   - [Day 5](#day-5-1)
+- [Week 4](#week-4)
+  - [Day 1](#day-1)
 
 # Week 1
 ## Day 1 - Intro to cloud and AWS
@@ -62,3 +64,8 @@
 ## Day 5
 [Monitoring and alert management](week3/day5/monitoring-and-alert-management/README.md)<br>
 [Auto scaling groups](week3/day5/auto-scaling-groups/README.md)
+
+# Week 4
+## Day 1
+[CI/CD with jenkins](week4/day1/ci-cd-with-jenkins/README.md)<br>
+[Using SSH to push to github](week4/day1/using-ssh-to-push-to-github/README.md)
