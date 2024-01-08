@@ -28,3 +28,6 @@
 16) Your ssh key should now work, to test it simply create a new empty repo on github, select ssh here:<br>
 ![SSH option for repo setup](../../../readme-images/ssh-option-for-repo-setup.png)<br>
 and follow the instructions given to you by github.
+
+This is a diagram explaining the process we used to set up our SSH key<br>
+![SSH for github](../../../readme-images/ssh-for-github.jpg)
