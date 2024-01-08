@@ -26,3 +26,35 @@ Monitoring is a way to keep track of the resources your VM is using. AWS gives y
 7) Then at the top it will say 5 minutes, simply click on it and change it to 1 minute.<br>
    ![Cpu utilization graph](../../../readme-images/cpu-utilization-graph.png)<br>
 8) Your graph will now refresh with new data every minute.
+
+# Setting up an alarm for CPU utilization
+1) Open the CloudWatch console at https://console.aws.amazon.com/cloudwatch/.
+2) In the menu on the left hand side, choose Alarms, All Alarms.
+3) Choose Create alarm.
+4) Choose Select metric.
+5) In the All metrics tab, choose EC2 metrics.
+6) Choose a metric category (I chose Per-Instance Metrics).
+7) Find the row with the instance that you want listed in the InstanceId column (using the search bar) and select the one with CPUUtilization in the Metric Name column. Select the check box next to this row, and choose Select metric.
+8) Under Specify metric and conditions, for Statistic choose Average.
+9) Choose a period (I used 1 minute).
+    ![Alarm metric](../../../readme-images/alarm-metric.png)
+10) Under Conditions, specify the following:
+    1) For Threshold type, choose Static.
+    2) For Whenever CPUUtilization is specify greater, specify the threshold that is to trigger the alarm to go to ALARM state if the CPU utilization exceeds this percentage. I used 10 for this test but you would ususally want it higher.
+11) Choose Next.
+    ![Alarm conditions](../../../readme-images/alarm-conditions.png)
+12) Under Notification, choose In alarm and select an SNS topic to notify when the alarm is in ALARM state
+    1) You may need to create a new email topic, to do this simply click create new topic.
+    2) Than give it a name and the email adress you want the notification to go to.
+13) To have the alarm send multiple notifications for the same alarm state or for different alarm states, choose Add notification.
+14) To have the alarm not send notifications, choose Remove.
+15) When finished, choose Next.
+    ![Alarm notifications setup](../../../readme-images/alarm-notification-setup.png)
+16) Enter a name and description for the alarm. Then choose Next.
+    ![Alarm name and description](../../../readme-images/alarm-name-and-description.png)
+17) Under Preview and create, confirm that the information and conditions are what you want, then choose Create alarm.
+18) You will need to go to your email and follow the link to subscribe to the alarm.
+19) Once you have done this you can go to your application and try to increase the CPU load to test it, you can do this by refreshing a lot or SSHing into your VM and running commands like update and upgrade.
+20) Once the CPU load is high enough you should recive an email like this one.
+
+![Alarm email](../../../readme-images/alarm-email.png)
