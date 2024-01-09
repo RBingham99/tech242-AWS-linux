@@ -16,6 +16,7 @@
   - [Day 5](#day-5-1)
 - [Week 4](#week-4)
   - [Day 1](#day-1)
+  - [Day 2](#day-2-2)
 
 # Week 1
 ## Day 1 - Intro to cloud and AWS
@@ -67,5 +68,8 @@
 
 # Week 4
 ## Day 1
-[CI/CD with jenkins](week4/day1/ci-cd-with-jenkins/README.md)<br>
+[CI/CD with Jenkins](week4/day1/ci-cd-with-jenkins/README.md)<br>
 [Using SSH to push to github](week4/day1/using-ssh-to-push-to-github/README.md)
+
+## Day 2
+[Creating jobs and pipelines with Jenkins](week4/day2/creating-jobs-and-pipelines-with-jenkins/README.md)
