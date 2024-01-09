@@ -5,11 +5,13 @@ CI refers to the practice of regularly and automatically integrating code change
 ## What is CD?
 Continuous Delivery is a DevOps practice that focuses on automating the software delivery process to ensure that software can be reliably and rapidly delivered to production at any time. The goal of Continuous Delivery is to make the software release process more efficient, reliable, and less error-prone. It involves automation of the entire delivery pipeline, from code integration and testing to deployment.
 
-## What is the difference between CD and CDE
 Continuous Deployment is an extension of Continuous Delivery. While Continuous Delivery ensures that the software is always in a deployable state, Continuous Deployment takes it a step further by automatically deploying every change that passes the automated tests directly to production without manual intervention. This approach aims to minimize the time between development and the delivery of new features or bug fixes to end-users.
 
+## What is the difference between CD and CDE
+CDE is Continuous delivery/deployment environment witch is all the tools involved in CD, like jenkins, maybe EC2 instances ect
+
 ## What is Jenkins?
-Jenkins is an open-source automation server commonly used for building, deploying, and automating projects. It facilitates Continuous Integration (CI) Continuous Delivery (CD) and Continuous Deployment (CDE) practices by automating the building, testing, and deployment of code changes.
+Jenkins is an open-source automation server commonly used for building, deploying, and automating projects. It facilitates Continuous Integration (CI) Continuous Delivery (CD) and Continuous Deployment (CD) practices by automating the building, testing, and deployment of code changes.
 
 ## Why use Jenkins? What are the benefits and disadvantages?
 Advantages:
@@ -56,6 +58,8 @@ Each stage consists of one or more steps, and the entire pipeline is defined in 
     - TeamCity
     - Bamboo
     - Gitlab
+    - Azure devops
+    - Github actions
 
 ## Why build a pipeline? What is the business value?
 - Faster Time to Market:
@@ -100,3 +104,9 @@ Each stage consists of one or more steps, and the entire pipeline is defined in 
 
 ## Diagram of CICD
 ![CI CD diagram](../../../readme-images/ci-cd-diagram.jpg)
+
+## Diagram of CICD pipeline
+![CI CD pipeline diagram](../../../readme-images/cicd-pipeline.jpg)
+
+## Diagram of CICD with Jenkins
+![CI CD with Jenkins](../../../readme-images/cicd-with-jenkins.jpg)

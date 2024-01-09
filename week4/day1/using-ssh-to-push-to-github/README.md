@@ -26,7 +26,7 @@
 15) Now use the command `ssh -T git@github.com`, to make sure you can connect to github if you get a prompt simply enter `yes`<br>
     ![Test SSH command](../../../readme-images/test-ssh-command.png)
 16) Your ssh key should now work, to test it simply create a new empty repo on github, select ssh here:<br>
-![SSH option for repo setup](../../../readme-images/ssh-option-for-repo-setup.png)<br>
+   ![SSH option for repo setup](../../../readme-images/ssh-option-for-repo-setup.png)<br>
 and follow the instructions given to you by github.
 
 This is a diagram explaining the process we used to set up our SSH key<br>
