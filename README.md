@@ -17,6 +17,7 @@
 - [Week 4](#week-4)
   - [Day 1](#day-1)
   - [Day 2](#day-2-2)
+  - [Day 3](#day-3)
 
 # Week 1
 ## Day 1 - Intro to cloud and AWS
@@ -73,3 +74,7 @@
 
 ## Day 2
 [Creating jobs and pipelines with Jenkins](week4/day2/creating-jobs-and-pipelines-with-jenkins/README.md)
+
+## Day 3
+[Jenkins jobs for our first pipeline](week4/day3/jenkins-jobs-for-our-first-pipeline/README.md)
+[Webhooks](week4/day3/webhooks/README.md)
