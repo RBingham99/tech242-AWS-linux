@@ -56,3 +56,11 @@ To set it up:
 16) Navigate to the configure section for job 1
 17) Scroll to the bottom, click "Add post-build action" and select "Build other projects"
 18) Choose job 2 and set to "Trigger only if build is stable"
+
+# Job 3
+1) First deploy your application through AWS, this is just like we have done before but we will need to change the security group to allow ssh from the jenkins machine, to do this:
+   1) Select custom from the sources option in the ssh section of your security group settings.
+   2) Go to the master node for jenkins
+   3) Navigate to its subgroup
+   4) copy the CIDR block 
+   5) paste it into the CIDR block section on the ssh section of your security group

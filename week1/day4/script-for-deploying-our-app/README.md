@@ -42,7 +42,7 @@ echo "Done!"
 echo ""
 
 # cd into the right folder
-echo "Navigate into the correct folder..."
+echo "Move into the correct folder..."
 cd /repo/springapi
 echo "Done!"
 echo ""
