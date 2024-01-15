@@ -12,7 +12,7 @@
 
 # CDIR block's
 - CDIR blocks are a way to say which IP's are used by a VPC or subnet.
-- We can use a CDIR block like this `10.0.0.0/16`, each number is 8 bits and the number after the `/` states how many bits are locked, so in this case the first 2 numbers are locked but the last 2 numbers can be anything from 0 to 255.<br>
+- We can use a CDIR block like this `10.0.0.0/16`, each number is 8 bits and the number after the `/` states how many bits are locked, so in this case the first 2 numbers are locked but the last 2 numbers can be anything from 0 to 255.
 
 # Default VPC Diagram
 ![Default vpc diagram](../../../readme-images/default-vpc-diagram.jpg)<br>
