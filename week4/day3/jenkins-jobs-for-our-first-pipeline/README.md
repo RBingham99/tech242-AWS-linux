@@ -1,6 +1,6 @@
 # Jenkins jobs for our first pipeline
 ## Job 1
-Job one will run the tests on our jsonvh app.
+Job 1 will run the tests on our jsonvh app.
 To set it up:
 1) Click "new item"
 2) Enter the name of your job and click on "freestyle project".<br>
@@ -33,6 +33,8 @@ To set it up:
 13) Now click save and you can run your job to see if it works
 
 # Job 2
+Job 2 will merge the changes from the dev branch into the main branch, if job 1 was succesfull.
+To set it up:
 1) Click "new item"
 2) Enter the name of your job and click on "freestyle project".<br>
    ![Jenkins name job](../../../readme-images/jenkins-name-job.png)
@@ -58,9 +60,29 @@ To set it up:
 18) Choose job 2 and set to "Trigger only if build is stable"
 
 # Job 3
+Job 3 will deploy the changes onto our already deployed app.
+To set it up:
 1) First deploy your application through AWS, this is just like we have done before but we will need to change the security group to allow ssh from the jenkins machine, to do this:
    1) Select custom from the sources option in the ssh section of your security group settings.
    2) Go to the master node for jenkins
-   3) Navigate to its subgroup
-   4) copy the CIDR block 
-   5) paste it into the CIDR block section on the ssh section of your security group
+   3) Navigate to its subnet
+   4) Copy the CIDR block 
+   5) Paste it into the CIDR block section on the ssh section of your security group
+2) Go to jenkins and create a new job like before
+3) Give the job a name and select freestyle
+4) Give the job a description, tick "discard old builds" and set "max # of builds to keep" to 3 like before
+5) Scroll down to "build environments" and select "SSH agent"
+6) Select the pem file you will need to ssh into the EC2 instance under "credentials" (you may need to add credentials like we did on job 1)
+   ![Jenkins job3 build environment ssh agent](../../../readme-images/jenkins-job3-build-environment-ssh-agent.png)
+7) Scroll down to "Build steps" and select "Execute shell" 
+8) Inside the command box you will need a few commands:
+   1) You may need to change the permissions on the app file on the EC2 instance so you will need:
+   `ssh -o StrictHostKeyChecking=no username@hostAddress 'sudo chmod -R 777 /reponame'`
+   2) Then you need to Copy the file from the Jenkins worker node to the EC2 instance with a command like this:
+   `scp -o StrictHostKeyChecking=no -r ../path/to/file/on/jenkins username@hostAddress:/reponame`
+   3) Then you need to re-package/re-run the app with the updated code using a command like this:
+   `ssh -o StrictHostKeyChecking=no username@hostAddress 'cd /path/to/folder/containing/pom; mvn clean package spring-boot:start'`<br>
+   ![Jenkins job3 build steps execute shell](../../../readme-images/jenkins-job3-build-steps-execute-shell.png)
+
+## Diagram of this CICD pipeline
+![CI CD pipeline diagram](../../../readme-images/cicd-pipeline.jpg)

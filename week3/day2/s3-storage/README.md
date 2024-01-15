@@ -2,8 +2,8 @@
 
 S3 storage is an AWS service that allows you to store things in containers called buckets or containers in azure, the files in your bucket are called objects or blobs in azure.
 
+## Installing AWS command line
 1) When using S3 storage on your terminal you will first need to install AWS command line interface with the command: `sudo apt install awscli -y` (you will need to add noninteractive if you are using this in a script)
-
 2) You can check it installed with the command `aws --version`
 3) You will then need to log in by using the command `aws configure` and then entering your access key, then your secret access key, your default region (we used eu-west-1) and finally the default output format (we used json)
 4) Now you can check it worked with the command `aws s3 ls` to show all buckets
@@ -29,12 +29,17 @@ BE VERY VERY CAREFUL WITH THESE COMMANDS, ESPECIALLY THE LAST ONE
 
 ## Making a bucket public - through the console
 1) Go to your bucket
-2) click permissions
-3) click the edit button in the block public access section
-4) uncheck all the boxes and click confirm (you will get a pop-up asking you to confirm by writing 'confirm')
-5) scroll down to the access control list section and follow the link
-6) tick that you acknowledge and click save
-7) go to the object tab, tick the objects you want to make public, click actions, make public and confirm
+2) Click permissions<br>
+   ![S3 bucket permissions tab](../../../readme-images/s3-bucket-permissions-tab.png)
+3) Click the edit button in the block public access section<br>
+   ![S3 bucket edit block public access button](../../../readme-images/s3-bucket-edit-block-public-access-button.png)
+4) Uncheck all the boxes and click "Save changes" (you will get a pop-up asking you to confirm by writing 'confirm')<br>
+   ![S3 bucket block public access settings](../../../readme-images/s3-bucket-block-public-access-settings.png)
+5) Scroll down to the access control list section and follow the link<br>
+   ![S3 bucket access control list link](../../../readme-images/s3-bucket-access-control-list-link.png)
+6) Select "ACL's enabled", tick that you acknowledge and click save<br>
+   ![S3 bucket object ownership settings](../../../readme-images/s3-bucket-object-ownership-settings.png)
+7) Go to the object tab, tick the objects you want to make public, click actions, click "make public using ACL" and confirm
 
 ## How does S3 storage provide redundancy, high availability and help with disaster recovery?
 Amazon S3 (Simple Storage Service) provides redundancy, durability and help with disaster recovery through a combination of data replication, error checking, and automatic healing mechanisms. The primary features that contribute to the redundancy and durability of data in Amazon S3 are:

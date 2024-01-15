@@ -105,8 +105,5 @@ Each stage consists of one or more steps, and the entire pipeline is defined in 
 ## Diagram of CICD
 ![CI CD diagram](../../../readme-images/ci-cd-diagram.jpg)
 
-## Diagram of CICD pipeline
-![CI CD pipeline diagram](../../../readme-images/cicd-pipeline.jpg)
-
 ## Diagram of CICD with Jenkins
 ![CI CD with Jenkins](../../../readme-images/cicd-with-jenkins.jpg)

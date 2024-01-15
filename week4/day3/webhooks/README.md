@@ -1,5 +1,5 @@
 ## Webhooks
-A webhook is when 1 service notifys anouther of a change.
+A webhook is when 1 service notifys another of a change.
 
 # Setting up a webhook from github to jenkins
 1) On the configre screen of your jenkins job set the "Branch Specifier" to "*/dev", then scroll down to "Build triggers" and tick "GitHub hook trigger for GITScm polling"
