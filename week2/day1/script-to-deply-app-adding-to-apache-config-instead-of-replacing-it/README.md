@@ -95,10 +95,6 @@ echo "Done!"
 echo ""
 
 # Run the app
-echo "Stopping application if running..."
-sudo mvn spring-boot:stop
-echo "Done!"
-echo ""
 echo "Run application..."
 sudo mvn spring-boot:start
 echo "Done!"
