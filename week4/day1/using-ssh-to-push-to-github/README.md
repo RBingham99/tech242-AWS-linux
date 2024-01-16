@@ -20,7 +20,7 @@
 11) Click "add ssh key".
 12) Now go back to your terminal and use the command `eval ssh-agent -s` with backticks around `ssh-agent -s`.<br>
     ![Eval SSH commad](../../../readme-images/eval-ssh-commad.png)
-13) It shout return `Agent pid` followed by a number.
+13) It should return `Agent pid` followed by a number.
 14) Now use the command `ssh-add your-key-name`, this will add your key to the ssh register.<br>
     ![SSH add command](../../../readme-images/ssh-add-command.png)
 15) Now use the command `ssh -T git@github.com`, to make sure you can connect to github if you get a prompt simply enter `yes`.<br>

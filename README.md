@@ -18,6 +18,8 @@
   - [Day 1](#day-1)
   - [Day 2](#day-2-2)
   - [Day 3](#day-3)
+- [Pre-assignment](#pre-assignment)
+  - [Gitlab CI/CD](#gitlab-cicd)
 
 # Week 1
 ## Day 1 - Intro to cloud and AWS
@@ -78,3 +80,7 @@
 ## Day 3
 [Jenkins jobs for our first pipeline](week4/day3/jenkins-jobs-for-our-first-pipeline/README.md)<br>
 [Webhooks](week4/day3/webhooks/README.md)
+
+# Pre-assignment
+## Gitlab CI/CD
+[Gitlab basics](pre-assignment/gitlab-cicd/gitlab-basics/README.md)

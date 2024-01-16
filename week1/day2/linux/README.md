@@ -37,3 +37,7 @@
 - `mvn spring-boot:run` will tell maven to run an application.
 - `mvn spring-boot:start`/`mvn spring-boot:stop` will run your app without stopping terminal interaction and then stop it again.
 - `sed` allows you to edit files in a script. It is used like this: `sed -i '/pattern/ a\line 1 of code\nline 2 of code\n' /path/to/file`. The `-i` at the begining stands for 'inplace'. Where it says pattern you put the line you want to look for in the file (inside the slashes), Always make the line you aer looking for unique. The `a` before the first line to insert stands for add/apend so it will be added after the pattern line. If you have any forward slashes `/` in your strings you need to put backslashes `\` before them.
+
+## Exit codes
+When a command finishes it returns an exit code, if the code is 0 the command was successfull, if it returns a number between 1 and 255 it had an error. 
+If you are not sure if a command worked you can use the command `echo $?` to print the exit code of the last command, so if it is 0 then the command worked otherwise there was an error.
